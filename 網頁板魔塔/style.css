@@ -1,0 +1,89 @@
+body {
+    background-image: url("pics\\blank.jpg");
+    background-repeat: repeat;
+    font-family: helvetica, arial, sans-serif;
+}
+caption {
+    font-size: 3em;
+    color: white;
+}
+table {
+    float: left;
+    border-collapse: collapse;
+    border: 0px;
+    padding: 0px 0px;
+}
+td {
+    font-weight: bold;
+    font-family: helvetica, arial, sans-serif;
+}
+h4 {
+	background-color: blue;
+	color: white;
+	text-align: left;
+}
+p {
+    position:absolute;
+    z-index:1;
+    color: white;
+    font-size: 1em;
+    font-family: helvetica, arial, sans-serif;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+.choicen {
+     border: 2px white solid;
+}
+
+button {
+    color: black;
+    font-size: 1em;
+    border-radius: 10%;
+}
+.key {
+    position:absolute;
+    z-index:1;
+    width: 35px;
+    height: 35px;
+}
+.top {
+    float: left;
+    z-index:1;
+    width: 70px;
+    height: 45px;
+    padding: 10px;
+}
+
+div {
+    float: left;
+}
+.text { 
+    float: top;
+    width: 700px;
+    height: 200px;
+    overflow-x:scroll;
+    overflow-y:scroll;
+    background-color:burlywood;
+    border: 3px chocolate solid; 
+}
+.screen {
+    position:absolute;
+    top: 70px;
+    left: 250px;
+    width: 450px;
+    height: 330px;
+    background:url("pics\\floor.jpg");
+    border: 3px chocolate solid; 
+    z-index: -1;
+}
+.top {
+    z-index: 2;
+}
+
+img { 
+    float: right;
+    width: 45px;
+    z-index: -1; 
+}
